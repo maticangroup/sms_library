@@ -1,0 +1,24 @@
+{
+  "name": "maticangroup/sms_ir_framework",
+  "authors": [
+    {
+      "name": "Matican Matican",
+      "email": "maticangroup@gmail.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Matican\\": "app/"
+    }
+  },
+  "license": "MIT"
+}
